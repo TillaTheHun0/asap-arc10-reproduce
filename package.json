@@ -1,0 +1,18 @@
+{
+  "name": "asap-arc10-reproduce",
+  "version": "1.0.0",
+  "scripts": {
+    "sandbox": "arc sandbox",
+    "deploy": "arc deploy --name=preview",
+    "deploy-dry": "arc deploy --name=preview --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TillaTheHun0/asap-arc10-reproduce.git"
+  },
+  "devDependencies": {
+    "@architect/architect": "^10.0.3",
+    "@architect/asap": "^5.0.0",
+    "@architect/functions": "^5.0.4"
+  }
+}
