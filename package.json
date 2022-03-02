@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@architect/architect": "^10.0.3",
-    "@architect/asap": "^5.0.0",
+    "@architect/asap": "https://github.com/TillaTheHun0/asap.git#fix/403-on-getobject",
     "@architect/functions": "^5.0.4"
   }
 }
